@@ -14,6 +14,7 @@ function App() {
   return (
     <div>
       <BrowserRouter>
+      {/* Scroll to Top used for smaller screens */}
         <ScrollToTop />
         <Routes>
           <Route element={<Navigation />}>
