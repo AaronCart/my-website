@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.linkText {
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  margin: 5px;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  background-color: #0F0F0F;
+}
+
+.activeText {
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  margin: 5px;
+  color: #000000;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+
+.activeText:hover {
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  margin: 5px;
+  color: #000000;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+
+.linkText:hover {
+  background-color: rgb(48, 48, 48);
+  border-radius: 25px;
+  color: #ffffff;
+}
+
+svg:hover {
+  fill: #ffffff;
+}
+
+.darkBG {
+  color: #ffffff;
+}
+
+.roundIMG {
+  border-radius: 5%;
+}
+
+body {
+  background-image: url('../assets/Cubes.jpeg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.listBG {
+  background-color: #0F0F0F;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.listLabel {
+  color: rgb(0, 170, 255);
+}
+
+.eduBG {
+  background-color: #221e3f;
+  color: #ffffff;
+}
+
+.eduLabel {
+  color: #0bccae;
+}
+
+a.links, a.links:visited {
+  text-decoration: none;
+  color: #38b6ff;
+}
+
+a.links:hover {
+  text-decoration: underline;
+}
+
+.btnLink {
+  background-color: #38b6ff;
+  border-color: #38b6ff;
+  color: #000000;
+}
