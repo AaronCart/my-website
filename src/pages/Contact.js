@@ -15,7 +15,10 @@ export default function Contact() {
                     <Card className='eduBG text-center py-3'>
                         <Card.Body>
                             <Image fluid src={Email} width={"13%"} className="roundIMG text-center mb-2"></Image>
-                            <Card.Title as="h5">aaronemail147@gmail.com</Card.Title>
+                            <Card.Title as="h5">
+                                <a className="links" href="mailto:aaronemail147@gmail.com">aaronemail147@gmail.com</a>
+                            </Card.Title>
+
                         </Card.Body>
                     </Card>
                 </Col>
