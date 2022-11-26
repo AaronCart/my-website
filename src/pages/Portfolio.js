@@ -26,7 +26,7 @@ export default function Portfolio() {
                     <h5 className='eduLabel'>WEB DEVELOPMENT</h5>
                     <h3>CommSec Copy</h3>
                     <p>A CommSec Login Clone (JavaScript & PHP)</p>
-                    <Button className="btnLink" size="lg" href="http://aaroncart.infinityfreeapp.com/CommSec-Copy/index.html"
+                    <Button className="btnLink" size="lg" href="https://aaron-cart.000webhostapp.com/CommSec-Copy/"
                         target="_blank">View Demo</Button>
                 </Col>
             </Row>
@@ -63,7 +63,7 @@ export default function Portfolio() {
                     <h5 className='eduLabel'>WEB DEVELOPMENT</h5>
                     <h3>Shopping Cart</h3>
                     <p>Basic Shopping Cart - Back-End (PHP)</p>
-                    <Button className="btnLink" size="lg" href="http://aaroncart.infinityfreeapp.com/Shopping-Cart/"
+                    <Button className="btnLink" size="lg" href="https://aaron-cart.000webhostapp.com/Shopping-Cart/"
                         target="_blank">View Website</Button>
                 </Col>
             </Row>
@@ -76,7 +76,7 @@ export default function Portfolio() {
                     <h5 className='eduLabel'>WEB DESIGN</h5>
                     <h3>Voting System</h3>
                     <p>Basic Front-End Voting System (JavaScript - Addressfinder API)</p>
-                    <Button className="btnLink" size="lg" href="http://aaroncart.infinityfreeapp.com/Election/index.php"
+                    <Button className="btnLink" size="lg" href="https://aaron-cart.000webhostapp.com/Election/"
                         target="_blank">View Demo</Button>
                 </Col>
             </Row>
